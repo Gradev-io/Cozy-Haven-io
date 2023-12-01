@@ -223,6 +223,7 @@ main
     rgba(116, 9, 121, 1) 18%,
     rgba(179, 97, 170, 1) 90%
   );
+  padding: 20px;
 }
 .about-container-box > h1 {
   color: white;
@@ -237,6 +238,7 @@ main
   flex-direction: column;
   width: 100%;
   margin-top: 2rem;
+  padding: 30px;
 }
 .info-container > .info-container-box > div {
   display: flex;
@@ -250,9 +252,9 @@ main
 @media screen and (max-width: 1080px) {
   .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
   }
   .header > .headerSubList {
     display: none;
